@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.3</version>
+		<relativePath/> </parent>
+	<groupId>com.Cight</groupId>
+	<artifactId>CightSee</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>CightSee</name>
+	<description>Demo project for Spring Boot</description>
+	<url>https://your-project-url.com</url>
+	<licenses>
+		<license>
+			<name>Your License Name</name>
+			<url>https://your-license-url.com</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>Your Name</name>
+			<email>your.email@example.com</email>
+			<organization>Your Organization</organization>
+			<organizationUrl>https://your-organization-url.com</organizationUrl>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:https://your-git-repository.com</connection>
+		<developerConnection>scm:git:ssh://git@your-git-repository.com:your-username/your-project.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://your-git-repository.com/your-project</url>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+			    <dependency>
+        <groupId>org.apache.httpcomponents.client5</groupId>
+        <artifactId>httpclient5</artifactId>
+        <version>5.2</version>
+    </dependency>
+
+    <!-- JSON Processing -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.14.1</version>
+    </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20231013</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.15.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
